@@ -33,10 +33,13 @@ El backend está hecho en Node.js y es el encargado de procesar los textos usand
 
 Entra a la carpeta del backend:
 cd backend
+
 Instala las dependencias:
 npm install
+
 Inicia el servidor:
 node index.js
+
 El servidor quedará corriendo en http://localhost:3001
 Debes mantener esta ventana abierta mientras usas la app
 
@@ -47,22 +50,30 @@ El backend utiliza Ollama para ejecutar la IA de manera local.
 Descarga Ollama desde: https://ollama.com
 Abre terminal y ejecuta:
 ollama pull mistral
+
 Esto descargará el modelo Mistral, que es necesario para que el análisis funcione
 Sin este paso, la app no podrá generar resultados
 
 4️⃣ Ejecutar la interfaz de usuario (frontend)
 Entra a la carpeta del frontend:
 cd frontend
+
 Instala las dependencias:
 npm install
+
 Inicia la aplicación web:
 npm start
 
 Esto abrirá la app en tu navegador en http://localhost:3000
+
 Pega un texto en la caja, presiona Analizar y obtendrás:
+
 📄 Resumen: Síntesis del texto en máximo 2 oraciones
+
 😊 Sentimiento: Positivo, Negativo o Neutral
+
 🏷 Tags: Lista de temas principales
+
 ⚠️ Notas importantes
 El backend debe estar corriendo antes de iniciar el frontend
 Si no instalas Ollama o no descargas el modelo Mistral, la app no funcionará
