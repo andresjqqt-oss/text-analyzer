@@ -18,7 +18,7 @@ Aplicación web que analiza texto usando Inteligencia Artificial local (Ollama).
 
 ### 1. Clonar repositorio
 
-git clone <TU_LINK>
+git clone https://github.com/andresjqqt-oss/text-analyzer
 cd text-analyzer
 
 ### 2. Backend
