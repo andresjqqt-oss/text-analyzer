@@ -39,6 +39,7 @@ Inicia el servidor:
 node index.js
 El servidor quedará corriendo en http://localhost:3001
 Debes mantener esta ventana abierta mientras usas la app
+
 3️⃣ Instalar Ollama y el modelo Mistral
 
 El backend utiliza Ollama para ejecutar la IA de manera local.
